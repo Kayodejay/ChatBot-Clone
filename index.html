@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <title>TeamGPT || Team Project</title>
+</head>
+<body>
+    <div class="chat-wrap">
+        <div class="chat user">
+            <div class="chat-content">
+                <div class="chat-details">
+                    <img src="./Images/user.png" alt="" width="100px">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, dolorum.</p>
+                </div>
+                
+            </div>
+        </div>
+        <div class="chat bot">
+            <div class="chat-content">
+                <div class="chat-details">
+                    <img src="./Images/chatbot.webp" alt="" width="100px">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, dolorum.</p>
+                </div>
+                <span class="material-symbols-rounded">content_copy</span>
+            </div>
+        </div>
+        <div class="chat bot">
+            <div class="chat-content">
+                <div class="chat-details">
+                    <img src="./Images/chatbot.webp" alt="" width="100px">
+                    <div class="typing-animation">
+                        <div class="typing-dot" style="--delay: 0.2s;"></div>
+                        <div class="typing-dot" style="--delay: 0.3s;"></div>
+                        <div class="typing-dot" style="--delay: 0.4s;"></div>
+                    </div>
+                </div>
+                <span class="material-symbols-rounded">content_copy</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Typing Container -->
+     <div class="typing-wrap">
+        <div class="typing-content">
+            <div class="typing-textarea">
+                <textarea id="chat-input" placeholder="Enter a prompt"></textarea>
+            </div>
+        </div>
+     </div>
+</body>
+</html>
