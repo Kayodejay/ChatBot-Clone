@@ -1,4 +1,4 @@
-# ChatBot Clone by TeamGPT
+# ChatBot Clone || TeamGPT by Team Desarollasores
 A simple web-based chatbot implementation using Google's Gemini Language Learning Model (LLM) for natural conversation capabilities. This project was developed in collaboration by students of Web3Bridge Web2 Advance Program.
 
 ## Real-time chat interface
